@@ -52,6 +52,7 @@ print(f"The weight in modern units are: {kilograms:.2f} kilograms and {grams:.2f
 
 # Task 6
 
+import random
 print(f"Write a program that draws two random combinations of numbers for a combination lock")
 a1 = random.randint(0, 9)
 a2 = random.randint(0, 9)
