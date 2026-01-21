@@ -1,4 +1,4 @@
-# Task 1:
+print('# Task 1')
 def Zander():
     size_limit =42
     length = float(input("Please enter the length of the zander (cm): "))
@@ -11,7 +11,7 @@ def Zander():
 
 Zander()
 
-#Task 2:
+print('# Task 2')
 
 def Cruise_cabin_class():
     cabin = input("Enter the cabin class (LUX, A, B, C): ").upper()
@@ -28,7 +28,7 @@ def Cruise_cabin_class():
 
 Cruise_cabin_class()
 
-#Task 3:
+print('# Task 3')
 #biological sex and hemoglobin value: BS_HV
 def BS_HV():
     bio_sex = input("Enter biological sex (male/female): ").lower()
@@ -55,7 +55,7 @@ def BS_HV():
 
 BS_HV()
 
-#Task 4:
+print('# Task 4')
 
 def Leap_year():
     year = int(input("Please enter a year: "))
@@ -66,7 +66,7 @@ def Leap_year():
 
 Leap_year()
 
-#Task 5:
+print('# Task 5')
 
 import math
 
@@ -92,5 +92,6 @@ def compare_pizzas():
         print("Pizza 2 provides better value for money.")
     else:
         print("Both pizzas have the same value for money.")
+
 
 compare_pizzas()
